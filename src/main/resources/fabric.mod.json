@@ -3,7 +3,7 @@
   "id": "autoplant",
   "version": "${version}",
   "name": "AutoPlant",
-  "description": "",
+  "description": "A simple Minecraft mod that automatically plants the item in your hand in your placement range.",
   "authors": [
     "DevReaper0"
   ],
