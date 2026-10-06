@@ -13,7 +13,7 @@ base {
 
 modrinth {
     token = System.getenv("MODRINTH_TOKEN")
-    projectId = "autoplant"
+    projectId = "fastplant"
     versionNumber = "${project.mod_version}+${project.minecraft_version}"
     versionName = "v${project.mod_version} for Minecraft ${project.minecraft_version}"
     gameVersions.set(project.minecraft_versions.split(',').toList())
