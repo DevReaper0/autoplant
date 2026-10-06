@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "autoplant",
+  "version": "${version}",
+  "name": "AutoPlant",
+  "description": "",
+  "authors": [
+    "DevReaper0"
+  ],
+  "contact": {
+    "issues": "https://github.com/DevReaper0/autoplant/issues",
+    "sources": "https://github.com/DevReaper0/autoplant"
+  },
+  "license": "MIT",
+  "icon": "assets/autoplant/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "xyz.devreaper0.autoplant.AutoPlant"
+    ]
+  },
+  "mixins": [
+    "autoplant.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_versions}"
+  }
+}
